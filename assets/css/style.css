@@ -1,0 +1,38 @@
+.button{
+    font-size: large;
+    font-weight: 900;
+    
+}
+
+.texto{
+    flex-direction: column;
+    background-color: white;
+    font-weight: 700;
+    color: black;
+}
+
+.bolha{
+    width: 100%;
+    background-color: red;
+    color: white !important;
+}
+
+.gales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gale{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    width: 70px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.marcado{
+    color:white;
+    background-color: red;
+}
