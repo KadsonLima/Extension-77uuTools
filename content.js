@@ -64,6 +64,7 @@ function verificarUltimo() {
 
 
 function martGale() {
+    (document.querySelector(".gales"))? document.querySelector(".gales").remove():''
     let valor = parseFloat(document.querySelector(".balance").innerText)
     let lista = []
     let gales = document.createElement("div");
