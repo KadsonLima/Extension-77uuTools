@@ -1,8 +1,8 @@
 {
     "name": "77uu Tools",
     "version": "0.1",
-    "manifest_version": 2,
-    "browser_action": {
+    "manifest_version": 3,
+    "action": {
         "default_icon": "./assets/img/logoicon.png",
         "icons": {
            "16": "./assets/img/logoicon.png",
@@ -13,9 +13,9 @@
       },
     "content_scripts": [
       {
-        "matches": ["<all_urls>"],
+        "matches": ["https://www.77uu.co/*"],
         "css": ["./assets/css/style.css"],
-        "js": ["content.js"]
+        "js": ["content.js", "jquery.js"]
       }
     ]
   }
