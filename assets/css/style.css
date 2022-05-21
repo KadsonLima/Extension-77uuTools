@@ -11,10 +11,20 @@
     color: black;
 }
 
-.bolha{
+.vermelho{
     width: 100%;
     background-color: red;
-    color: white !important;
+    color: white ;
+}
+.roxo{
+    width: 100%;
+    background-color: red;
+    color: white ;
+}
+.verde{
+    width: 100%;
+    background-color: red;
+    color: white ;
 }
 
 .gales{
